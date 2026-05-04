@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(.venv/Scripts/pip install *)",
+      "Bash(.venv/Scripts/jupytext *)",
+      "Bash(.venv/Scripts/python *)",
+      "Bash(uv --version)",
+      "Bash(PYTHONIOENCODING=utf-8 uv run *)"
+    ]
+  }
+}
